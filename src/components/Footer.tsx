@@ -48,12 +48,6 @@ export default function Footer() {
                   </a>
                 </dd>
               </div>
-              <div className="flex items-center gap-3">
-                <dt className="w-20 text-xs uppercase tracking-widest text-sage-400">
-                  {t.footer.address}
-                </dt>
-                <dd>{t.footer.location}</dd>
-              </div>
             </dl>
           </div>
         </div>

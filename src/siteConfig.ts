@@ -12,7 +12,7 @@ export const common = {
   contact: {
     person: "Helvijs Leja",
     phone: "+371 29185303",
-    email: "helvijs@gmail.com",
+    email: "dagar@dagar.lv",
   },
 };
 
@@ -40,8 +40,6 @@ export interface Content {
     contact: string;
     phone: string;
     email: string;
-    address: string;
-    location: string;
     rights: string;
   };
 }
@@ -94,8 +92,6 @@ export const translations: Record<Lang, Content> = {
       contact: "Kontakti",
       phone: "Tālr.",
       email: "E-pasts",
-      address: "Adrese",
-      location: "Rīga, Latvija",
       rights: "Visas tiesības aizsargātas.",
     },
   },
@@ -147,8 +143,6 @@ export const translations: Record<Lang, Content> = {
       contact: "Contact",
       phone: "Phone",
       email: "Email",
-      address: "Address",
-      location: "Riga, Latvia",
       rights: "All rights reserved.",
     },
   },
