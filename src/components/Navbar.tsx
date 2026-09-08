@@ -30,11 +30,12 @@ export default function Navbar() {
   const { t } = useLanguage();
   const [open, setOpen] = useState(false);
 
+  const base = import.meta.env.BASE_URL; // "/" (dev) vai "/DAGAR/" (GitHub Pages)
   const links = [
-    { href: "/#home", label: t.nav.home },
-    { href: "/#about", label: t.nav.about },
-    { href: "/#services", label: t.nav.services },
-    { href: "/#contact", label: t.nav.contact },
+    { href: `${base}#home`, label: t.nav.home },
+    { href: `${base}#about`, label: t.nav.about },
+    { href: `${base}#services`, label: t.nav.services },
+    { href: `${base}#contact`, label: t.nav.contact },
   ];
 
   return (
