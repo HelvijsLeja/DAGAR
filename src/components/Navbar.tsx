@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { common } from "../siteConfig";
 import { useLanguage } from "../LanguageContext";
 import Rune from "./Rune";
@@ -30,19 +31,19 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: "#home", label: t.nav.home },
-    { href: "#about", label: t.nav.about },
-    { href: "#services", label: t.nav.services },
-    { href: "#contact", label: t.nav.contact },
+    { href: "/#home", label: t.nav.home },
+    { href: "/#about", label: t.nav.about },
+    { href: "/#services", label: t.nav.services },
+    { href: "/#contact", label: t.nav.contact },
   ];
 
   return (
     <header className="absolute inset-x-0 top-0 z-50">
       <nav className="container flex h-20 items-center justify-between">
-        <a href="#home" className="flex items-center gap-3 text-ink">
+        <Link to="/" className="flex items-center gap-3 text-ink">
           <Rune className="h-7 w-7" strokeWidth={9} />
           <span className="text-lg font-semibold tracking-widest2">{common.companyName}</span>
-        </a>
+        </Link>
 
         <div className="hidden items-center gap-10 md:flex">
           <ul className="flex items-center gap-10">

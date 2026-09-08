@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#e7f0ea" />
+  <g fill="none" stroke="#1a1a1a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="530" y1="150" x2="530" y2="270" />
+    <line x1="670" y1="150" x2="670" y2="270" />
+    <line x1="530" y1="150" x2="670" y2="270" />
+    <line x1="670" y1="150" x2="530" y2="270" />
+  </g>
+  <text x="600" y="400" text-anchor="middle" font-family="Georgia, 'Cormorant Garamond', serif"
+    font-size="120" font-weight="600" fill="#1a1a1a" letter-spacing="24">DAGAR</text>
+  <text x="600" y="470" text-anchor="middle" font-family="Inter, system-ui, sans-serif"
+    font-size="30" fill="#6b6b6b" letter-spacing="8">PROJEKTU VADĪBA UN KONSULTĀCIJAS</text>
+</svg>

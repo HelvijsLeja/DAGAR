@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { common } from "../siteConfig";
 import { useLanguage } from "../LanguageContext";
 import Rune from "./Rune";
@@ -50,11 +51,16 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-20 flex flex-col gap-2 border-t border-sage-800 pt-8 text-sm text-sage-400 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-20 flex flex-col gap-4 border-t border-sage-800 pt-8 text-sm text-sage-400 sm:flex-row sm:items-center sm:justify-between">
           <span>
             © {new Date().getFullYear()} {t.companyLegal}. {t.footer.rights}
           </span>
-          <span className="tracking-widest">{common.marketsCode}</span>
+          <div className="flex items-center gap-6">
+            <Link to="/privatuma-politika" className="transition-colors hover:text-white">
+              {t.footer.privacy}
+            </Link>
+            <span className="tracking-widest">{common.marketsCode}</span>
+          </div>
         </div>
       </div>
     </footer>
