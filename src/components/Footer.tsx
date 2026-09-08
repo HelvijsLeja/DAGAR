@@ -25,8 +25,6 @@ export default function Footer() {
               {t.footer.contact}
             </span>
 
-            <p className="mt-6 text-2xl font-semibold text-white">{common.contact.person}</p>
-
             <dl className="mt-6 space-y-4 text-lg">
               <div className="flex items-center gap-3">
                 <dt className="w-20 text-xs uppercase tracking-widest text-sage-400">

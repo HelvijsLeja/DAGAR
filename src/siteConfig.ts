@@ -10,7 +10,6 @@ export const common = {
   companyName: "DAGAR",
   marketsCode: "LV · PL · UA · LT · EE",
   contact: {
-    person: "Helvijs Leja",
     phone: "+371 29185303",
     email: "dagar@dagar.lv",
   },
