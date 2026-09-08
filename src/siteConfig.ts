@@ -7,16 +7,16 @@ export const site = {
   companyLegal: "SIA DAGAR",
   tagline: "Projektu vadība un konsultācijas",
   heroLead:
-    "Pilna cikla ekspertīze projektu vadībā un biznesa attīstībā — no idejas līdz rezultātam.",
+    "Pilna cikla ekspertīze projektu vadībā, biznesa attīstībā un enerģētikā — no idejas līdz rezultātam.",
 
   // ── Par mums ──
   about: {
     lead: "Kopš 2012. gada",
     intro:
       "DAGAR SIA ar mītni Rīgā, Latvijā, sniedz projektu vadības un konsultāciju pakalpojumus dažādās nozarēs un starptautiskos tirgos.",
-    markets: ["Latvija", "Krievija", "Polija", "Ukraina", "Lietuva", "Igaunija"],
-    marketsCode: "LV · RU · PL · UA · LT · EE",
-    body: "Mēs nodrošinām pilna cikla ekspertīzi, palīdzot klientiem īstenot projektus droši, savlaicīgi un ar mērķtiecīgu pieeju katrā nozarē.",
+    markets: ["Latvija", "Polija", "Ukraina", "Lietuva", "Igaunija"],
+    marketsCode: "LV · PL · UA · LT · EE",
+    body: "Mēs nodrošinām pilna cikla ekspertīzi, palīdzot klientiem īstenot projektus droši, savlaicīgi un ar mērķtiecīgu pieeju katrā nozarē. Īpaša uzmanība tiek pievērsta enerģētikas nozarei, tostarp atjaunojamai un zaļajai enerģijai.",
   },
 
   // ── Pakalpojumi / jomas ──
@@ -36,6 +36,10 @@ export const site = {
     {
       title: "Tirgus izpēte",
       text: "Primārā un sekundārā tirgus izpēte lēmumu pieņemšanas atbalstam.",
+    },
+    {
+      title: "Enerģētika",
+      text: "Atjaunojamā un zaļā enerģija — projektu izstrāde, attīstība un vadība enerģētikas nozarē.",
     },
   ],
 
