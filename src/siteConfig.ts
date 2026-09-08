@@ -64,27 +64,23 @@ export const translations: Record<Lang, Content> = {
     services: {
       eyebrow: "Ko mēs darām",
       heading: "Pakalpojumi",
-      lead: "Pilna cikla ekspertīze šādās jomās:",
+      lead: "Projektu vadība un konsultācijas šādās jomās:",
       items: [
         {
-          title: "Projektu vadība",
-          text: "Nekustamais īpašums, mazumtirdzniecība, būvniecība, atjaunojamā un zaļā enerģija, ražošana.",
+          title: "Enerģētika",
+          text: "Industriālo gāzu piegāde un atjaunojamā enerģētika — biogāze un biometāns.",
         },
         {
           title: "Biznesa attīstība",
-          text: "Nekustamais īpašums, mazumtirdzniecība, atjaunojamā enerģija, ražošana, rūpnieciskās gāzes.",
+          text: "Jaunu tirgu, partnerību un izaugsmes virzienu attīstība.",
         },
         {
-          title: "Produktu attīstība",
-          text: "Mazumtirdzniecība un ražošana — no koncepcijas līdz tirgum.",
+          title: "Produktu attīstība un izstrāde",
+          text: "Produktu izstrāde un attīstība — no koncepcijas līdz tirgum.",
         },
         {
-          title: "Tirgus izpēte",
-          text: "Primārā un sekundārā tirgus izpēte lēmumu pieņemšanas atbalstam.",
-        },
-        {
-          title: "Enerģētika",
-          text: "Atjaunojamā un zaļā enerģija — projektu izstrāde, attīstība un vadība enerģētikas nozarē.",
+          title: "IKT",
+          text: "Informācijas un komunikācijas tehnoloģiju risinājumi un projekti.",
         },
       ],
     },
@@ -115,27 +111,23 @@ export const translations: Record<Lang, Content> = {
     services: {
       eyebrow: "What we do",
       heading: "Services",
-      lead: "Full-cycle expertise in the following areas:",
+      lead: "Project management and consulting in the following areas:",
       items: [
         {
-          title: "Project Management",
-          text: "Real estate, retail, construction, renewable and green energy, manufacturing.",
+          title: "Energy",
+          text: "Industrial gas supply and renewable energy — biogas and biomethane.",
         },
         {
           title: "Business Development",
-          text: "Real estate, retail, renewable energy, manufacturing, industrial gases.",
+          text: "Developing new markets, partnerships and growth directions.",
         },
         {
           title: "Product Development",
-          text: "Retail and manufacturing — from concept to market.",
+          text: "Product design and development — from concept to market.",
         },
         {
-          title: "Market Research",
-          text: "Primary and secondary market research to support decision-making.",
-        },
-        {
-          title: "Energy",
-          text: "Renewable and green energy — project design, development and management in the energy sector.",
+          title: "ICT",
+          text: "Information and communication technology solutions and projects.",
         },
       ],
     },
