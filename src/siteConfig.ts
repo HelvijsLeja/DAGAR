@@ -10,7 +10,7 @@ export const common = {
   companyName: "DAGAR",
   marketsCode: "LV · PL · UA · LT · EE",
   // Vietnes adrese (izmanto SEO / canonical / sitemap). Nomainiet, ja domēns cits.
-  siteUrl: "https://www.dagar.lv",
+  siteUrl: "https://dagar.lv",
   contact: {
     phone: "+371 29185303",
     email: "dagar@dagar.lv",

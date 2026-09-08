@@ -1,9 +1,8 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// GitHub Pages projektu lapa tiek servēta no apakšceļa /DAGAR/.
-// Kad pieslēgsim domēnu dagar.lv (custom domain), nomainiet base uz "/".
+// Lapa tiek servēta no saknes, jo lietojam custom domain dagar.lv.
 export default defineConfig({
-  base: "/DAGAR/",
+  base: "/",
   plugins: [react()],
 });

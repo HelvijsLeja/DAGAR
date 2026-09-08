@@ -13,4 +13,4 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://www.dagar.lv/sitemap.xml
+Sitemap: https://dagar.lv/sitemap.xml
