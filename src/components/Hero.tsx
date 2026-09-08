@@ -1,7 +1,10 @@
-import { site } from "../siteConfig";
+import { common } from "../siteConfig";
+import { useLanguage } from "../LanguageContext";
 import Rune from "./Rune";
 
 export default function Hero() {
+  const { t } = useLanguage();
+
   return (
     <section
       id="home"
@@ -17,33 +20,29 @@ export default function Hero() {
         <Rune className="h-16 w-16 text-ink md:h-20 md:w-20" strokeWidth={6} />
 
         <h1 className="mt-8 font-serif text-6xl font-semibold tracking-[0.22em] text-ink sm:text-7xl md:text-8xl">
-          {site.companyName}
+          {common.companyName}
         </h1>
 
         <div className="mt-4 flex items-center gap-4 text-ink-muted">
           <span className="h-px w-10 bg-ink-muted/40" />
-          <span className="text-xs font-medium uppercase tracking-widest2">
-            {site.tagline}
-          </span>
+          <span className="text-xs font-medium uppercase tracking-widest2">{t.tagline}</span>
           <span className="h-px w-10 bg-ink-muted/40" />
         </div>
 
-        <p className="mt-10 max-w-xl text-lg leading-relaxed text-ink-soft">
-          {site.heroLead}
-        </p>
+        <p className="mt-10 max-w-xl text-lg leading-relaxed text-ink-soft">{t.heroLead}</p>
 
         <div className="mt-12 flex flex-wrap items-center justify-center gap-4">
           <a
             href="#contact"
             className="rounded-full bg-ink px-8 py-3 text-xs font-semibold uppercase tracking-widest text-sage-50 transition-colors hover:bg-sage-800"
           >
-            Sazināties
+            {t.hero.contact}
           </a>
           <a
             href="#services"
             className="rounded-full border border-ink/20 px-8 py-3 text-xs font-semibold uppercase tracking-widest text-ink transition-colors hover:border-ink/50"
           >
-            Pakalpojumi
+            {t.hero.services}
           </a>
         </div>
       </div>
