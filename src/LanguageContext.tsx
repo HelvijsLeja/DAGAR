@@ -24,7 +24,9 @@ function detectInitialLang(): Lang {
 }
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Lang>(detectInitialLang);
+  // Sākotnēji vienmēr "lv" — lai servera (SSG) un klienta pirmais renderis sakrīt
+  // (novērš hidrācijas neatbilstību). Īsto valodu nosakām pēc mount.
+  const [lang, setLangState] = useState<Lang>("lv");
 
   const setLang = (l: Lang) => {
     setLangState(l);
@@ -34,6 +36,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       /* ignorē */
     }
   };
+
+  useEffect(() => {
+    const detected = detectInitialLang();
+    if (detected !== "lv") setLangState(detected);
+  }, []);
 
   useEffect(() => {
     document.documentElement.lang = lang;

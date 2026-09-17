@@ -30,12 +30,9 @@ jobs:
 
       - run: npm run build
 
-      # SPA fallback nezināmiem ceļiem
+      # SPA fallback nezināmiem ceļiem (vite-react-ssg jau pre-renderē katru maršrutu
+      # kā atsevišķu HTML ar saturu, tāpēc /privatuma-politika atgriež 200 SEO dēļ).
       - run: cp dist/index.html dist/404.html
-
-      # Statiskas lapas maršrutiem, lai tie atgriež HTTP 200 (nevis 404) SEO dēļ.
-      # GitHub Pages servē privatuma-politika.html adresē /privatuma-politika ar statusu 200.
-      - run: cp dist/index.html dist/privatuma-politika.html
 
       - uses: actions/configure-pages@v5
 
