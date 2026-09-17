@@ -35,6 +35,7 @@ export default function Navbar() {
     { href: `${base}#home`, label: t.nav.home },
     { href: `${base}#about`, label: t.nav.about },
     { href: `${base}#services`, label: t.nav.services },
+    { href: `${base}#faq`, label: t.nav.faq },
     { href: `${base}#contact`, label: t.nav.contact },
   ];
 

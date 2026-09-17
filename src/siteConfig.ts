@@ -29,7 +29,7 @@ export interface Content {
   companyLegal: string;
   tagline: string;
   heroLead: string;
-  nav: { home: string; about: string; services: string; contact: string };
+  nav: { home: string; about: string; services: string; faq: string; contact: string };
   hero: { contact: string; services: string };
   about: {
     lead: string;
@@ -44,6 +44,11 @@ export interface Content {
     heading: string;
     lead: string;
     items: { title: string; text: string }[];
+  };
+  faq: {
+    eyebrow: string;
+    heading: string;
+    items: { q: string; a: string }[];
   };
   footer: {
     contact: string;
@@ -74,7 +79,7 @@ export const translations: Record<Lang, Content> = {
     tagline: "Projektu vadība un konsultācijas",
     heroLead:
       "Pilna cikla ekspertīze projektu vadībā, biznesa attīstībā un enerģētikā — no idejas līdz rezultātam.",
-    nav: { home: "Sākums", about: "Par mums", services: "Pakalpojumi", contact: "Kontakti" },
+    nav: { home: "Sākums", about: "Par mums", services: "Pakalpojumi", faq: "BUJ", contact: "Kontakti" },
     hero: { contact: "Sazināties", services: "Pakalpojumi" },
     about: {
       lead: "Kopš 2012. gada",
@@ -108,6 +113,44 @@ export const translations: Record<Lang, Content> = {
         },
       ],
     },
+    faq: {
+      eyebrow: "Jautājumi un atbildes",
+      heading: "Biežāk uzdotie jautājumi",
+      items: [
+        {
+          q: "Ko dara SIA DAGAR?",
+          a: "Sniedzam projektu vadības un konsultāciju pakalpojumus jomās: enerģētika, biznesa attīstība, produktu attīstība un IKT.",
+        },
+        {
+          q: "Kādās nozarēs strādājat?",
+          a: "Enerģētika (industriālo gāzu piegāde, atjaunojamā enerģētika — biogāze un biometāns), nekustamais īpašums, mazumtirdzniecība, ražošana un IKT.",
+        },
+        {
+          q: "Kādos tirgos darbojaties?",
+          a: "Latvijā, Polijā, Ukrainā, Lietuvā un Igaunijā.",
+        },
+        {
+          q: "Cik ilgi uzņēmums darbojas?",
+          a: "Kopš 2012. gada, ar mītni Rīgā, Latvijā.",
+        },
+        {
+          q: "Ko nozīmē pilna cikla projektu vadība?",
+          a: "Vadām projektu no idejas un koncepcijas līdz īstenošanai un rezultātam.",
+        },
+        {
+          q: "Vai konsultējat atjaunojamās enerģijas projektos (biogāze, biometāns)?",
+          a: "Jā — tā ir viena no mūsu galvenajām specializācijas jomām.",
+        },
+        {
+          q: "Kā uzsākt sadarbību?",
+          a: "Rakstiet uz dagar@dagar.lv vai zvaniet +371 29185303.",
+        },
+        {
+          q: "Kādā valodā notiek saziņa?",
+          a: "Latviešu un angļu valodā.",
+        },
+      ],
+    },
     footer: {
       contact: "Kontakti",
       phone: "Tālr.",
@@ -123,7 +166,7 @@ export const translations: Record<Lang, Content> = {
     tagline: "Project management & consulting",
     heroLead:
       "Full-cycle expertise in project management, business development and energy — from idea to result.",
-    nav: { home: "Home", about: "About", services: "Services", contact: "Contact" },
+    nav: { home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact" },
     hero: { contact: "Get in touch", services: "Services" },
     about: {
       lead: "Since 2012",
@@ -154,6 +197,44 @@ export const translations: Record<Lang, Content> = {
         {
           title: "ICT",
           text: "Information and communication technology solutions and projects.",
+        },
+      ],
+    },
+    faq: {
+      eyebrow: "Questions & answers",
+      heading: "Frequently asked questions",
+      items: [
+        {
+          q: "What does DAGAR do?",
+          a: "We provide project management and consulting services in energy, business development, product development and ICT.",
+        },
+        {
+          q: "Which industries do you work in?",
+          a: "Energy (industrial gas supply, renewable energy — biogas and biomethane), real estate, retail, manufacturing and ICT.",
+        },
+        {
+          q: "Which markets do you operate in?",
+          a: "Latvia, Poland, Ukraine, Lithuania and Estonia.",
+        },
+        {
+          q: "How long has the company been operating?",
+          a: "Since 2012, headquartered in Riga, Latvia.",
+        },
+        {
+          q: "What does full-cycle project management mean?",
+          a: "We manage a project from idea and concept through to implementation and result.",
+        },
+        {
+          q: "Do you advise on renewable energy projects (biogas, biomethane)?",
+          a: "Yes — it is one of our core areas of expertise.",
+        },
+        {
+          q: "How do we start working together?",
+          a: "Write to dagar@dagar.lv or call +371 29185303.",
+        },
+        {
+          q: "What languages do you work in?",
+          a: "Latvian and English.",
         },
       ],
     },
