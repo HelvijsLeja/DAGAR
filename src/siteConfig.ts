@@ -166,7 +166,7 @@ export const translations: Record<Lang, Content> = {
         },
         {
           q: "Kādā valodā notiek saziņa?",
-          a: "Latviešu un angļu valodā.",
+          a: "Latviešu, angļu un krievu valodā.",
         },
       ],
     },
@@ -267,7 +267,7 @@ export const translations: Record<Lang, Content> = {
         },
         {
           q: "What languages do you work in?",
-          a: "Latvian and English.",
+          a: "Latvian, English and Russian.",
         },
       ],
     },
