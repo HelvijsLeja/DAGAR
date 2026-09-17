@@ -4,7 +4,7 @@ export default function FAQ() {
   const { t } = useLanguage();
 
   return (
-    <section id="faq" className="bg-sage-50 py-28">
+    <section id="faq" className="bg-white py-28">
       <div className="container max-w-3xl">
         <div className="mb-14 max-w-2xl">
           <span className="text-xs font-semibold uppercase tracking-widest2 text-sage-600">

@@ -45,6 +45,11 @@ export interface Content {
     lead: string;
     items: { title: string; text: string }[];
   };
+  process: {
+    eyebrow: string;
+    heading: string;
+    steps: { title: string; text: string }[];
+  };
   faq: {
     eyebrow: string;
     heading: string;
@@ -113,6 +118,16 @@ export const translations: Record<Lang, Content> = {
         },
       ],
     },
+    process: {
+      eyebrow: "Kā mēs strādājam",
+      heading: "Sadarbības gaita",
+      steps: [
+        { title: "Konsultācija", text: "Noskaidrojam jūsu vajadzības un mērķus." },
+        { title: "Piedāvājums un plāns", text: "Sagatavojam risinājumu un darba plānu." },
+        { title: "Īstenošana", text: "Vadām projektu un koordinējam izpildi." },
+        { title: "Rezultāts un atbalsts", text: "Nododam rezultātu un sniedzam atbalstu." },
+      ],
+    },
     faq: {
       eyebrow: "Jautājumi un atbildes",
       heading: "Biežāk uzdotie jautājumi",
@@ -140,6 +155,10 @@ export const translations: Record<Lang, Content> = {
         {
           q: "Vai konsultējat atjaunojamās enerģijas projektos (biogāze, biometāns)?",
           a: "Jā — tā ir viena no mūsu galvenajām specializācijas jomām.",
+        },
+        {
+          q: "Kā veidojas cena?",
+          a: "Cena tiek noteikta individuāli — atkarībā no projekta apjoma, sarežģītības un vajadzībām. Sazinieties, un sagatavosim piedāvājumu.",
         },
         {
           q: "Kā uzsākt sadarbību?",
@@ -200,6 +219,16 @@ export const translations: Record<Lang, Content> = {
         },
       ],
     },
+    process: {
+      eyebrow: "How we work",
+      heading: "Our process",
+      steps: [
+        { title: "Consultation", text: "We clarify your needs and goals." },
+        { title: "Proposal & plan", text: "We prepare a solution and a work plan." },
+        { title: "Execution", text: "We manage the project and coordinate delivery." },
+        { title: "Result & support", text: "We hand over the result and provide support." },
+      ],
+    },
     faq: {
       eyebrow: "Questions & answers",
       heading: "Frequently asked questions",
@@ -227,6 +256,10 @@ export const translations: Record<Lang, Content> = {
         {
           q: "Do you advise on renewable energy projects (biogas, biomethane)?",
           a: "Yes — it is one of our core areas of expertise.",
+        },
+        {
+          q: "How is pricing determined?",
+          a: "Pricing is set individually, based on the project's scope, complexity and needs. Get in touch and we'll prepare a proposal.",
         },
         {
           q: "How do we start working together?",
