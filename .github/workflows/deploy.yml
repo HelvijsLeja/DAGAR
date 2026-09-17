@@ -30,8 +30,12 @@ jobs:
 
       - run: npm run build
 
-      # SPA fallback: nezināmiem ceļiem (piem. /privatuma-politika) atgriež lietotni
+      # SPA fallback nezināmiem ceļiem
       - run: cp dist/index.html dist/404.html
+
+      # Statiskas lapas maršrutiem, lai tie atgriež HTTP 200 (nevis 404) SEO dēļ.
+      # GitHub Pages servē privatuma-politika.html adresē /privatuma-politika ar statusu 200.
+      - run: cp dist/index.html dist/privatuma-politika.html
 
       - uses: actions/configure-pages@v5
 
