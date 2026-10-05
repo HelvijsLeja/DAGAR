@@ -18,9 +18,9 @@ export const common = {
   // Juridiskie dati (izmanto privātuma politikā un strukturētajos datos)
   company: {
     legalName: "SIA DAGAR",
-    regNr: "Reģ. Nr. 40103579673",
+    regNr: "40103579673",
     vatNr: "LV40103579673",
-    legalAddress: "Rīga, Latvija",
+    legalAddress: "Silciema iela 15/2-40, Rīga, LV-1024, Latvija",
     founded: "2012",
   },
 };
@@ -288,137 +288,146 @@ export const translations: Record<Lang, Content> = {
 export const privacyContent: Record<Lang, PrivacyContent> = {
   lv: {
     title: "Privātuma politika",
-    updated: "Pēdējoreiz atjaunināts: 2026. gada 8. septembrī",
+    updated: "Pēdējoreiz atjaunināts: 2026. gada 5. oktobrī",
     intro:
-      `Šī privātuma politika apraksta, kā ${common.company.legalName} apstrādā personas datus, kad izmantojat mūsu vietni ${common.siteUrl} un sazināties ar mums. Mēs cienām jūsu privātumu un apstrādājam datus saskaņā ar Vispārīgo datu aizsardzības regulu (VDAR).`,
+      "Šī politika apraksta, kā SIA DAGAR apstrādā personas datus, kad apmeklējat vietni https://dagar.lv vai sazināties ar mums.",
     sections: [
       {
-        heading: "1. Pārzinis un kontaktinformācija",
+        heading: "1. Pārzinis",
         paragraphs: [
-          `Datu pārzinis: ${common.company.legalName}, ${common.company.regNr}, ${common.company.legalAddress}.`,
-          `Jautājumos par personas datu apstrādi rakstiet uz: ${common.contact.email}.`,
+          "Personas datu pārzinis ir SIA DAGAR, reģ. Nr. 40103579673, juridiskā adrese: Silciema iela 15/2-40, Rīga, LV-1024, Latvija. Jautājumos par personas datiem rakstiet uz dagar@dagar.lv vai zvaniet +371 29185303.",
         ],
       },
       {
-        heading: "2. Kādus datus mēs apstrādājam",
-        paragraphs: ["Atkarībā no tā, kā izmantojat vietni, mēs varam apstrādāt:"],
+        heading: "2. Kādus datus apstrādājam",
+        paragraphs: [
+          "Mēs neizmantojam analītiku, reklāmas rīkus un profilēšanu. Vietnē nav kontaktformas.",
+        ],
         list: [
-          "Saziņas dati (kontaktforma vai e-pasts): vārds, e-pasta adrese, tālruņa numurs un ziņojuma saturs.",
-          "Tehniskie dati (sīkdatnes un analītika): IP adrese, ierīces un pārlūka informācija, vietnes lietošanas statistika.",
+          "Saziņas dati: ja rakstāt mums e-pastu vai zvanāt, mēs apstrādājam jūsu vārdu, e-pasta adresi vai tālruņa numuru, uzņēmumu (ja to norādāt) un ziņojuma saturu.",
+          "Tehniskie dati: vietni mitina GitHub Pages. Kad atverat vietni, mitinātājs drošības nolūkos reģistrē jūsu IP adresi un pārlūka tehnisko informāciju. Mēs šos datus neredzam un neizmantojam statistikai.",
+          "Valodas izvēle: ja izvēlaties vietnes valodu, šī izvēle tiek saglabāta jūsu pārlūkā (sk. 4. sadaļu).",
         ],
       },
       {
-        heading: "3. Apstrādes nolūki un tiesiskais pamats",
+        heading: "3. Nolūki un tiesiskais pamats",
+        paragraphs: [
+          "Datu sniegšana ir brīvprātīga. Bez kontaktinformācijas mēs nevaram jums atbildēt. Automatizētus lēmumus, kas jūs būtiski ietekmētu, mēs nepieņemam.",
+        ],
         list: [
-          "Atbildēt uz jūsu pieprasījumiem un nodrošināt saziņu — pamats: jūsu piekrišana un mūsu leģitīmās intereses.",
-          "Vietnes darbības nodrošināšana un uzlabošana — pamats: mūsu leģitīmās intereses.",
-          "Analītika un sīkdatnes — pamats: jūsu piekrišana.",
+          "Atbildēt uz jūsu pieprasījumu par mūsu pakalpojumiem un sagatavot piedāvājumu. Pamats: pasākumi pirms līguma noslēgšanas pēc jūsu pieprasījuma (VDAR 6. panta 1. punkta b) apakšpunkts).",
+          "Citu saraksti un darījumu saziņu ar uzņēmumu pārstāvjiem uzturam, pamatojoties uz mūsu leģitīmo interesi atbildēt uz vēstulēm un uzturēt darījumu attiecības (VDAR 6. panta 1. punkta f) apakšpunkts).",
+          "Nodrošināt vietnes darbību un drošību. Pamats: leģitīmā interese (VDAR 6. panta 1. punkta f) apakšpunkts).",
         ],
       },
       {
-        heading: "4. Sīkdatnes",
+        heading: "4. Sīkdatnes un pārlūka krātuve",
         paragraphs: [
-          "Vietne var izmantot nepieciešamās sīkdatnes (vietnes pamatdarbībai) un analītikas sīkdatnes (lietošanas statistikai). Analītikas sīkdatnes tiek izmantotas tikai ar jūsu piekrišanu. Sīkdatnes var pārvaldīt un dzēst pārlūkprogrammas iestatījumos.",
+          "Vietne neizmanto sīkdatnes. Jūsu pārlūka lokālajā krātuvē (localStorage) tiek saglabāts tikai viens ieraksts „dagar-lang“ ar jūsu izvēlēto valodu, lai nākamajā apmeklējumā to atcerētos. Šis ieraksts netiek nosūtīts mums vai trešajām personām. To var dzēst pārlūka iestatījumos.",
         ],
       },
       {
-        heading: "5. Datu glabāšana",
-        paragraphs: [
-          "Personas datus glabājam tikai tik ilgi, cik nepieciešams attiecīgā nolūka sasniegšanai vai normatīvo aktu prasību izpildei, pēc tam tie tiek dzēsti vai anonimizēti.",
+        heading: "5. Cik ilgi glabājam datus",
+        list: [
+          "E-pasta saraksti glabājam 2 gadus pēc pēdējās saziņas.",
+          "Ja noslēdzam līgumu, saraksti glabājam līguma darbības laikā un pēc tam tik ilgi, cik prasa normatīvie akti (piemēram, grāmatvedības prasības) vai cik vajadzīgs iespējamu prasījumu aizstāvībai.",
+          "Tehniskos žurnālus glabā GitHub saskaņā ar saviem noteikumiem.",
+          "Valodas izvēle paliek jūsu pārlūkā, līdz to izdzēšat.",
         ],
       },
       {
-        heading: "6. Datu saņēmēji un nodošana",
+        heading: "6. Saņēmēji un nodošana ārpus ES/EEZ",
         paragraphs: [
-          "Datus varam nodot uzticamiem pakalpojumu sniedzējiem (piemēram, vietnes uzturēšanai un analītikas rīkiem), kuri darbojas mūsu uzdevumā. Dati tiek apstrādāti ES/EEZ teritorijā vai ar atbilstošām aizsardzības garantijām. Mēs nepārdodam jūsu personas datus.",
+          "Datus nododam tikai pakalpojumu sniedzējiem, kas nepieciešami vietnes un saziņas darbībai. Personas datus mēs nepārdodam. Nodošana uz ASV notiek, pamatojoties uz Eiropas Komisijas lēmumu par ES–ASV datu privātuma regulējumu (Īstenošanas lēmums (ES) 2023/1795) un/vai standarta līguma klauzulām.",
+        ],
+        list: [
+          "GitHub, Inc. (ASV): vietnes mitināšana;",
+          "e-pasta pakalpojumu sniedzēji: domēna e-pasta pārsūtīšanas un pastkastes pakalpojums.",
         ],
       },
       {
         heading: "7. Jūsu tiesības",
-        paragraphs: ["Saskaņā ar VDAR jums ir tiesības:"],
-        list: [
-          "Piekļūt saviem datiem un saņemt to kopiju;",
-          "Labot neprecīzus datus;",
-          "Dzēst datus („tikt aizmirstam“);",
-          "Ierobežot vai iebilst pret apstrādi;",
-          "Uz datu pārnesamību;",
-          "Atsaukt piekrišanu jebkurā laikā;",
-          "Iesniegt sūdzību Datu valsts inspekcijai (www.dvi.gov.lv).",
+        paragraphs: [
+          "Jums ir tiesības piekļūt saviem datiem, labot tos, dzēst tos, ierobežot apstrādi un (ja piemērojams) saņemt datus pārnesamā formātā. Tiesības iebilst: jūs jebkurā laikā varat iebilst pret apstrādi, kas balstīta uz mūsu leģitīmajām interesēm. Pieprasījumus sūtiet uz dagar@dagar.lv; atbildēsim viena mēneša laikā. Jums ir arī tiesības iesniegt sūdzību Datu valsts inspekcijai (www.dvi.gov.lv).",
         ],
       },
       {
-        heading: "8. Izmaiņas politikā",
+        heading: "8. Izmaiņas",
         paragraphs: [
-          "Mēs varam periodiski atjaunināt šo privātuma politiku. Aktuālā versija vienmēr būs pieejama šajā lapā ar norādīto atjaunināšanas datumu.",
+          "Politiku atjaunināsim, ja mainīsies datu apstrāde. Aktuālā versija un tās datums vienmēr ir šajā lapā.",
         ],
       },
     ],
   },
-
   en: {
     title: "Privacy Policy",
-    updated: "Last updated: 8 September 2026",
+    updated: "Last updated: 5 October 2026",
     intro:
-      `This privacy policy describes how ${common.company.legalName} processes personal data when you use our website ${common.siteUrl} and contact us. We respect your privacy and process data in accordance with the General Data Protection Regulation (GDPR).`,
+      "This policy explains how SIA DAGAR processes personal data when you visit https://dagar.lv or contact us.",
     sections: [
       {
-        heading: "1. Controller and contact information",
+        heading: "1. Controller",
         paragraphs: [
-          `Data controller: ${common.company.legalName}, ${common.company.regNr}, ${common.company.legalAddress}.`,
-          `For questions about the processing of personal data, write to: ${common.contact.email}.`,
+          "The controller is SIA DAGAR, registration No. 40103579673, registered address: Silciema iela 15/2-40, Riga, LV-1024, Latvia. For questions about personal data, email dagar@dagar.lv or call +371 29185303.",
         ],
       },
       {
         heading: "2. What data we process",
-        paragraphs: ["Depending on how you use the website, we may process:"],
+        paragraphs: [
+          "We do not use analytics, advertising tools or profiling. The website has no contact form.",
+        ],
         list: [
-          "Contact data (contact form or email): name, email address, phone number and message content.",
-          "Technical data (cookies and analytics): IP address, device and browser information, website usage statistics.",
+          "Contact data: if you email or call us, we process your name, email address or phone number, company (if provided) and the content of your message.",
+          "Technical data: the website is hosted on GitHub Pages. When you open the site, the host logs your IP address and technical browser information for security purposes. We do not access these data or use them for statistics.",
+          "Language choice: if you choose a website language, your choice is stored in your browser (see section 4).",
         ],
       },
       {
         heading: "3. Purposes and legal basis",
+        paragraphs: [
+          "Providing data is voluntary. Without contact details we cannot reply to you. We do not make automated decisions that significantly affect you.",
+        ],
         list: [
-          "To respond to your requests and enable communication — basis: your consent and our legitimate interests.",
-          "To operate and improve the website — basis: our legitimate interests.",
-          "Analytics and cookies — basis: your consent.",
+          "To respond to your enquiry about our services and prepare an offer. Basis: steps taken at your request prior to entering into a contract (Article 6(1)(b) GDPR).",
+          "Other correspondence and business communication with company representatives are based on our legitimate interest in replying and maintaining business relations (Article 6(1)(f) GDPR).",
+          "To operate and secure the website. Basis: legitimate interest (Article 6(1)(f) GDPR).",
         ],
       },
       {
-        heading: "4. Cookies",
+        heading: "4. Cookies and browser storage",
         paragraphs: [
-          "The website may use necessary cookies (for core functionality) and analytics cookies (for usage statistics). Analytics cookies are used only with your consent. You can manage and delete cookies in your browser settings.",
+          "The website does not use cookies. Only one entry, “dagar-lang”, containing your chosen language, is saved in your browser’s local storage (localStorage) so the site remembers it on your next visit. It is not sent to us or to third parties. You can delete it in your browser settings.",
         ],
       },
       {
-        heading: "5. Data retention",
-        paragraphs: [
-          "We keep personal data only for as long as necessary to achieve the relevant purpose or to comply with legal requirements, after which it is deleted or anonymised.",
+        heading: "5. How long we keep data",
+        list: [
+          "We keep email correspondence for 2 years after our last contact.",
+          "If we enter into a contract, we keep correspondence for the term of the contract and afterwards for as long as required by law (e.g. accounting requirements) or needed to defend possible claims.",
+          "Technical logs are retained by GitHub under its own terms.",
+          "Your language choice stays in your browser until you delete it.",
         ],
       },
       {
-        heading: "6. Recipients and transfers",
+        heading: "6. Recipients and transfers outside the EU/EEA",
         paragraphs: [
-          "We may share data with trusted service providers (for example, website hosting and analytics tools) acting on our behalf. Data is processed within the EU/EEA or with appropriate safeguards. We do not sell your personal data.",
+          "We share data only with service providers needed to run the website and communications. We do not sell personal data. Transfers to the USA rely on the European Commission’s adequacy decision for the EU-U.S. Data Privacy Framework (Implementing Decision (EU) 2023/1795) and/or standard contractual clauses.",
+        ],
+        list: [
+          "GitHub, Inc. (USA): website hosting;",
+          "email service providers: domain email forwarding and mailbox service.",
         ],
       },
       {
         heading: "7. Your rights",
-        paragraphs: ["Under the GDPR you have the right to:"],
-        list: [
-          "Access your data and receive a copy;",
-          "Rectify inaccurate data;",
-          "Erase data (“right to be forgotten”);",
-          "Restrict or object to processing;",
-          "Data portability;",
-          "Withdraw consent at any time;",
-          "Lodge a complaint with the Data State Inspectorate of Latvia (www.dvi.gov.lv).",
+        paragraphs: [
+          "You have the right to access your data, rectify it, erase it, restrict processing and (where applicable) receive your data in a portable format. Right to object: you may object at any time to processing based on our legitimate interests. Send requests to dagar@dagar.lv; we will reply within one month. You also have the right to lodge a complaint with the Data State Inspectorate of Latvia (www.dvi.gov.lv).",
         ],
       },
       {
-        heading: "8. Changes to this policy",
+        heading: "8. Changes",
         paragraphs: [
-          "We may update this privacy policy from time to time. The current version will always be available on this page with the update date indicated.",
+          "We will update this policy if our processing changes. The current version and its date are always available on this page.",
         ],
       },
     ],
