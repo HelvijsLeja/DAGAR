@@ -5,6 +5,7 @@ import About from "../components/About";
 import Services from "../components/Services";
 import Process from "../components/Process";
 import FAQ from "../components/FAQ";
+import PageUrl from "../components/PageUrl";
 
 export default function Home() {
   const { t } = useLanguage();
@@ -15,6 +16,7 @@ export default function Home() {
 
   return (
     <>
+      <PageUrl path="/" />
       <Hero />
       <About />
       <Services />

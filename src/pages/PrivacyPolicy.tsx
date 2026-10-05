@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { privacyContent } from "../siteConfig";
 import { useLanguage } from "../LanguageContext";
+import PageUrl from "../components/PageUrl";
 
 export default function PrivacyPolicy() {
   const { lang, t } = useLanguage();
@@ -13,6 +14,7 @@ export default function PrivacyPolicy() {
 
   return (
     <section className="bg-sage-50 pt-32 pb-28">
+      <PageUrl path="/privatuma-politika" />
       <div className="container max-w-3xl">
         <Link
           to="/"
