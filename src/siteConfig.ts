@@ -181,7 +181,7 @@ export const translations: Record<Lang, Content> = {
   },
 
   en: {
-    companyLegal: "DAGAR Ltd",
+    companyLegal: "SIA DAGAR",
     tagline: "Project management & consulting",
     heroLead:
       "Full-cycle expertise in project management, business development and energy — from idea to result.",
@@ -191,7 +191,7 @@ export const translations: Record<Lang, Content> = {
       lead: "Since 2012",
       heading: "About us",
       intro:
-        "DAGAR Ltd, headquartered in Riga, Latvia, provides project management and consulting services across diverse industries and international markets.",
+        "SIA DAGAR, headquartered in Riga, Latvia, provides project management and consulting services across diverse industries and international markets.",
       body: "We deliver full-cycle expertise, helping clients realise projects reliably, on time and with a focused approach in every industry. Special attention is given to the energy sector, including renewable and green energy.",
       marketsLabel: "Markets",
       markets: ["Latvia", "Poland", "Ukraine", "Lithuania", "Estonia"],
