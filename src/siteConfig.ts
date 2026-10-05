@@ -341,8 +341,7 @@ export const privacyContent: Record<Lang, PrivacyContent> = {
           "Datus nododam tikai pakalpojumu sniedzējiem, kas nepieciešami vietnes un saziņas darbībai. Personas datus mēs nepārdodam. Nodošana uz ASV notiek, pamatojoties uz Eiropas Komisijas lēmumu par ES–ASV datu privātuma regulējumu (Īstenošanas lēmums (ES) 2023/1795) un/vai standarta līguma klauzulām.",
         ],
         list: [
-          "GitHub, Inc. (ASV): vietnes mitināšana;",
-          "e-pasta pakalpojumu sniedzēji: domēna e-pasta pārsūtīšanas un pastkastes pakalpojums.",
+          "GitHub, Inc. (ASV): vietnes mitināšana.",
         ],
       },
       {
@@ -414,8 +413,7 @@ export const privacyContent: Record<Lang, PrivacyContent> = {
           "We share data only with service providers needed to run the website and communications. We do not sell personal data. Transfers to the USA rely on the European Commission’s adequacy decision for the EU-U.S. Data Privacy Framework (Implementing Decision (EU) 2023/1795) and/or standard contractual clauses.",
         ],
         list: [
-          "GitHub, Inc. (USA): website hosting;",
-          "email service providers: domain email forwarding and mailbox service.",
+          "GitHub, Inc. (USA): website hosting.",
         ],
       },
       {
