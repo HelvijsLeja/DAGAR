@@ -90,7 +90,7 @@ export const translations: Record<Lang, Content> = {
       lead: "Kopš 2012. gada",
       heading: "Par mums",
       intro:
-        "DAGAR SIA ar mītni Rīgā, Latvijā, sniedz projektu vadības un konsultāciju pakalpojumus dažādās nozarēs un starptautiskos tirgos.",
+        "SIA DAGAR ar mītni Rīgā, Latvijā, sniedz projektu vadības un konsultāciju pakalpojumus dažādās nozarēs un starptautiskos tirgos.",
       body: "Mēs nodrošinām pilna cikla ekspertīzi, palīdzot klientiem īstenot projektus droši, savlaicīgi un ar mērķtiecīgu pieeju katrā nozarē. Īpaša uzmanība tiek pievērsta enerģētikas nozarei, tostarp atjaunojamai un zaļajai enerģijai.",
       marketsLabel: "Tirgi",
       markets: ["Latvija", "Polija", "Ukraina", "Lietuva", "Igaunija"],
@@ -109,8 +109,8 @@ export const translations: Record<Lang, Content> = {
           text: "Jaunu tirgu, partnerību un izaugsmes virzienu attīstība.",
         },
         {
-          title: "Produktu attīstība un izstrāde",
-          text: "Produktu izstrāde un attīstība — no koncepcijas līdz tirgum.",
+          title: "Produktu attīstība",
+          text: "Produktu dizains un izstrāde — no koncepcijas līdz tirgum.",
         },
         {
           title: "IKT",
@@ -339,7 +339,7 @@ export const privacyContent: Record<Lang, PrivacyContent> = {
         list: [
           "Piekļūt saviem datiem un saņemt to kopiju;",
           "Labot neprecīzus datus;",
-          "Dzēst datus (“tikt aizmirstam”);",
+          "Dzēst datus („tikt aizmirstam“);",
           "Ierobežot vai iebilst pret apstrādi;",
           "Uz datu pārnesamību;",
           "Atsaukt piekrišanu jebkurā laikā;",
