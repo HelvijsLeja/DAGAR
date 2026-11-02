@@ -83,26 +83,26 @@ export const translations: Record<Lang, Content> = {
     companyLegal: "SIA DAGAR",
     tagline: "Projektu vadība un konsultācijas",
     heroLead:
-      "Pilna cikla ekspertīze projektu vadībā, biznesa attīstībā un enerģētikā — no idejas līdz rezultātam.",
+      "Vadām enerģētikas un biznesa attīstības projektus Baltijā, Polijā un Ukrainā: no idejas un plāna līdz īstenošanai.",
     nav: { home: "Sākums", about: "Par mums", services: "Pakalpojumi", faq: "BUJ", contact: "Kontakti" },
-    hero: { contact: "Sazināties", services: "Pakalpojumi" },
+    hero: { contact: "Apspriest projektu", services: "Skatīt pakalpojumus" },
     about: {
       lead: "Kopš 2012. gada",
       heading: "Par mums",
       intro:
-        "SIA DAGAR ar mītni Rīgā, Latvijā, sniedz projektu vadības un konsultāciju pakalpojumus dažādās nozarēs un starptautiskos tirgos.",
-      body: "Mēs nodrošinām pilna cikla ekspertīzi, palīdzot klientiem īstenot projektus droši, savlaicīgi un ar mērķtiecīgu pieeju katrā nozarē. Īpaša uzmanība tiek pievērsta enerģētikas nozarei, tostarp atjaunojamai un zaļajai enerģijai.",
+        "SIA DAGAR kopš 2012. gada vada projektus un konsultē uzņēmumus Latvijā, Lietuvā, Igaunijā, Polijā un Ukrainā.",
+      body: "Vadām projektus no idejas līdz rezultātam. Galvenā joma ir enerģētika: industriālās gāzes un atjaunojamā enerģētika. Strādājam arī biznesa attīstības, produktu attīstības un IKT projektos.",
       marketsLabel: "Tirgi",
       markets: ["Latvija", "Polija", "Ukraina", "Lietuva", "Igaunija"],
     },
     services: {
       eyebrow: "Ko mēs darām",
       heading: "Pakalpojumi",
-      lead: "Projektu vadība un konsultācijas šādās jomās:",
+      lead: "Ko piedāvājam:",
       items: [
         {
           title: "Enerģētika",
-          text: "Industriālo gāzu piegāde un atjaunojamā enerģētika.",
+          text: "Industriālo gāzu piegāde. Atjaunojamās enerģētikas projektu vadība.",
         },
         {
           title: "Biznesa attīstība",
@@ -138,7 +138,7 @@ export const translations: Record<Lang, Content> = {
         },
         {
           q: "Kādās nozarēs strādājat?",
-          a: "Enerģētika (industriālo gāzu piegāde, atjaunojamā enerģētika — biogāze un biometāns), nekustamais īpašums, mazumtirdzniecība, ražošana un IKT.",
+          a: "Enerģētika (industriālo gāzu piegāde un atjaunojamā enerģētika), nekustamais īpašums, mazumtirdzniecība, ražošana un IKT.",
         },
         {
           q: "Kādos tirgos darbojaties?",
@@ -153,8 +153,8 @@ export const translations: Record<Lang, Content> = {
           a: "Vadām projektu no idejas un koncepcijas līdz īstenošanai un rezultātam.",
         },
         {
-          q: "Vai konsultējat atjaunojamās enerģijas projektos (biogāze, biometāns)?",
-          a: "Jā — tā ir viena no mūsu galvenajām specializācijas jomām.",
+          q: "Vai strādājat atjaunojamās enerģētikas projektos?",
+          a: "Jā. Enerģētika, tostarp atjaunojamā enerģētika, ir mūsu galvenā joma.",
         },
         {
           q: "Kā veidojas cena?",
@@ -162,7 +162,7 @@ export const translations: Record<Lang, Content> = {
         },
         {
           q: "Kā uzsākt sadarbību?",
-          a: "Rakstiet uz dagar@dagar.lv vai zvaniet +371 29185303.",
+          a: "Uzrakstiet uz dagar@dagar.lv vai zvaniet +371 29185303. Īsi aprakstiet projektu, valsti un termiņu, un mēs atbildēsim ar nākamajiem soļiem.",
         },
         {
           q: "Kādā valodā notiek saziņa?",
@@ -184,26 +184,26 @@ export const translations: Record<Lang, Content> = {
     companyLegal: "SIA DAGAR",
     tagline: "Project management & consulting",
     heroLead:
-      "Full-cycle expertise in project management, business development and energy — from idea to result.",
+      "We run energy and business development projects in the Baltics, Poland and Ukraine: from idea and plan to delivery.",
     nav: { home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact" },
-    hero: { contact: "Get in touch", services: "Services" },
+    hero: { contact: "Discuss your project", services: "View services" },
     about: {
       lead: "Since 2012",
       heading: "About us",
       intro:
-        "SIA DAGAR, headquartered in Riga, Latvia, provides project management and consulting services across diverse industries and international markets.",
-      body: "We deliver full-cycle expertise, helping clients realise projects reliably, on time and with a focused approach in every industry. Special attention is given to the energy sector, including renewable and green energy.",
+        "Since 2012, SIA DAGAR has managed projects and advised companies in Latvia, Lithuania, Estonia, Poland and Ukraine.",
+      body: "We take projects from idea to result. Our main focus is energy: industrial gases and renewable energy. We also work on business development, product development and ICT projects.",
       marketsLabel: "Markets",
       markets: ["Latvia", "Poland", "Ukraine", "Lithuania", "Estonia"],
     },
     services: {
       eyebrow: "What we do",
       heading: "Services",
-      lead: "Project management and consulting in the following areas:",
+      lead: "What we offer:",
       items: [
         {
           title: "Energy",
-          text: "Industrial gas supply and renewable energy — biogas and biomethane.",
+          text: "Industrial gas supply. Renewable energy project management.",
         },
         {
           title: "Business Development",
@@ -239,7 +239,7 @@ export const translations: Record<Lang, Content> = {
         },
         {
           q: "Which industries do you work in?",
-          a: "Energy (industrial gas supply, renewable energy — biogas and biomethane), real estate, retail, manufacturing and ICT.",
+          a: "Energy (industrial gas supply and renewable energy), real estate, retail, manufacturing and ICT.",
         },
         {
           q: "Which markets do you operate in?",
@@ -254,8 +254,8 @@ export const translations: Record<Lang, Content> = {
           a: "We manage a project from idea and concept through to implementation and result.",
         },
         {
-          q: "Do you advise on renewable energy projects (biogas, biomethane)?",
-          a: "Yes — it is one of our core areas of expertise.",
+          q: "Do you work on renewable energy projects?",
+          a: "Yes. Energy, including renewable energy, is our main focus.",
         },
         {
           q: "How is pricing determined?",
@@ -263,7 +263,7 @@ export const translations: Record<Lang, Content> = {
         },
         {
           q: "How do we start working together?",
-          a: "Write to dagar@dagar.lv or call +371 29185303.",
+          a: "Email dagar@dagar.lv or call +371 29185303. Briefly describe the project, country and timeline, and we'll reply with next steps.",
         },
         {
           q: "What languages do you work in?",
