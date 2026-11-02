@@ -81,7 +81,7 @@ export interface PrivacyContent {
 export const translations: Record<Lang, Content> = {
   lv: {
     companyLegal: "SIA DAGAR",
-    tagline: "Projektu vadība un konsultācijas",
+    tagline: "Enerģētikas un biznesa projektu vadība",
     heroLead:
       "Vadām enerģētikas un biznesa attīstības projektus Baltijā, Polijā un Ukrainā: no idejas un plāna līdz īstenošanai.",
     nav: { home: "Sākums", about: "Par mums", services: "Pakalpojumi", faq: "BUJ", contact: "Kontakti" },
@@ -182,7 +182,7 @@ export const translations: Record<Lang, Content> = {
 
   en: {
     companyLegal: "SIA DAGAR",
-    tagline: "Project management & consulting",
+    tagline: "Energy and business project management",
     heroLead:
       "We run energy and business development projects in the Baltics, Poland and Ukraine: from idea and plan to delivery.",
     nav: { home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact" },
