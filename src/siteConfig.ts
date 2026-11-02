@@ -102,7 +102,7 @@ export const translations: Record<Lang, Content> = {
       items: [
         {
           title: "Enerģētika",
-          text: "Industriālo gāzu piegāde un atjaunojamā enerģētika — biogāze un biometāns.",
+          text: "Industriālo gāzu piegāde un atjaunojamā enerģētika.",
         },
         {
           title: "Biznesa attīstība",
