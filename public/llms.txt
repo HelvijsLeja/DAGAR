@@ -1,8 +1,8 @@
 # SIA DAGAR
 
 > SIA DAGAR (DAGAR) is a Latvia-based company providing project management and
-> consulting services since 2012, headquartered in Riga. It operates across
-> Latvia, Poland, Ukraine, Lithuania and Estonia.
+> consulting services since 2012, headquartered in Riga. It runs projects
+> worldwide; experience to date covers Latvia, Poland, Ukraine, Lithuania and Estonia.
 
 ## About
 
@@ -12,12 +12,12 @@ focused approach in every industry.
 
 ## Services (project management & consulting in these areas)
 
-- Energy: industrial gas supply; renewable energy — biogas and biomethane.
+- Energy: industrial gas supply; renewable energy project management.
 - Business Development: developing new markets, partnerships and growth directions.
 - Product Development: product design and development, from concept to market.
 - ICT: information and communication technology solutions and projects.
 
-## Markets
+## Experience to date
 
 Latvia (LV), Poland (PL), Ukraine (UA), Lithuania (LT), Estonia (EE).
 
@@ -30,10 +30,10 @@ Latvia (LV), Poland (PL), Ukraine (UA), Lithuania (LT), Estonia (EE).
 ## FAQ
 
 - What does DAGAR do? Project management and consulting in energy, business development, product development and ICT.
-- Which industries? Energy (industrial gas supply; renewable energy — biogas and biomethane), real estate, retail, manufacturing and ICT.
-- Which markets? Latvia, Poland, Ukraine, Lithuania and Estonia.
+- Which industries? Energy (industrial gas supply; renewable energy project management), real estate, retail, manufacturing and ICT.
+- Where does DAGAR have experience? Projects run worldwide; experience to date: Latvia, Poland, Ukraine, Lithuania and Estonia.
 - How long operating? Since 2012, headquartered in Riga, Latvia.
-- Renewable energy (biogas, biomethane)? Yes — one of DAGAR's core areas.
+- Renewable energy projects? Yes — energy, including renewable energy, is DAGAR's main focus.
 - Pricing? Set individually, based on the project's scope, complexity and needs.
 - How to start? Email dagar@dagar.lv or call +371 29185303.
 - Languages? Latvian, English and Russian.

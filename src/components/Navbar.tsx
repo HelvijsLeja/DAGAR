@@ -13,9 +13,9 @@ function LangToggle({ className = "" }: { className?: string }) {
           {i > 0 && <span className="text-ink-muted/40">/</span>}
           <button
             onClick={() => setLang(l)}
-            className={
+            className={`inline-flex min-h-[44px] min-w-[32px] items-center justify-center ${
               lang === l ? "text-ink" : "text-ink-muted transition-colors hover:text-sage-700"
-            }
+            }`}
             aria-pressed={lang === l}
           >
             {l}
@@ -53,7 +53,7 @@ export default function Navbar() {
               <li key={l.href}>
                 <a
                   href={l.href}
-                  className="text-xs font-medium uppercase tracking-widest text-ink-soft transition-colors hover:text-sage-700"
+                  className="inline-flex min-h-[44px] items-center text-xs font-medium uppercase tracking-widest text-ink-soft transition-colors hover:text-sage-700"
                 >
                   {l.label}
                 </a>
@@ -67,7 +67,7 @@ export default function Navbar() {
         <div className="flex items-center gap-5 md:hidden">
           <LangToggle />
           <button
-            className="text-ink"
+            className="-mr-2 p-2 text-ink"
             aria-label="Menu"
             onClick={() => setOpen((v) => !v)}
           >
@@ -89,7 +89,7 @@ export default function Navbar() {
               <a
                 href={l.href}
                 onClick={() => setOpen(false)}
-                className="block rounded-lg px-3 py-2 text-sm font-medium uppercase tracking-wider text-ink-soft hover:bg-sage-100"
+                className="block rounded-lg px-3 py-3 text-sm font-medium uppercase tracking-wider text-ink-soft hover:bg-sage-100"
               >
                 {l.label}
               </a>

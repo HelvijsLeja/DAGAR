@@ -83,16 +83,16 @@ export const translations: Record<Lang, Content> = {
     companyLegal: "SIA DAGAR",
     tagline: "Enerģētikas un biznesa projektu vadība",
     heroLead:
-      "Vadām enerģētikas un biznesa attīstības projektus Baltijā, Polijā un Ukrainā: no idejas un plāna līdz īstenošanai.",
+      "Vadām enerģētikas un biznesa attīstības projektus visā pasaulē: no idejas un plāna līdz īstenošanai.",
     nav: { home: "Sākums", about: "Par mums", services: "Pakalpojumi", faq: "BUJ", contact: "Kontakti" },
     hero: { contact: "Apspriest projektu", services: "Skatīt pakalpojumus" },
     about: {
       lead: "Kopš 2012. gada",
       heading: "Par mums",
       intro:
-        "SIA DAGAR kopš 2012. gada vada projektus un konsultē uzņēmumus Latvijā, Lietuvā, Igaunijā, Polijā un Ukrainā.",
+        "SIA DAGAR kopš 2012. gada vada projektus un konsultē uzņēmumus visā pasaulē.",
       body: "Vadām projektus no idejas līdz rezultātam. Galvenā joma ir enerģētika: industriālās gāzes un atjaunojamā enerģētika. Strādājam arī biznesa attīstības, produktu attīstības un IKT projektos.",
-      marketsLabel: "Tirgi",
+      marketsLabel: "Līdzšinējā pieredze",
       markets: ["Latvija", "Polija", "Ukraina", "Lietuva", "Igaunija"],
     },
     services: {
@@ -141,8 +141,8 @@ export const translations: Record<Lang, Content> = {
           a: "Enerģētika (industriālo gāzu piegāde un atjaunojamā enerģētika), nekustamais īpašums, mazumtirdzniecība, ražošana un IKT.",
         },
         {
-          q: "Kādos tirgos darbojaties?",
-          a: "Latvijā, Polijā, Ukrainā, Lietuvā un Igaunijā.",
+          q: "Kur jums ir pieredze?",
+          a: "Projektus vadām visā pasaulē. Līdzšinējā pieredze ir Latvijā, Polijā, Ukrainā, Lietuvā un Igaunijā.",
         },
         {
           q: "Cik ilgi uzņēmums darbojas?",
@@ -184,16 +184,16 @@ export const translations: Record<Lang, Content> = {
     companyLegal: "SIA DAGAR",
     tagline: "Energy and business project management",
     heroLead:
-      "We run energy and business development projects in the Baltics, Poland and Ukraine: from idea and plan to delivery.",
+      "We run energy and business development projects worldwide: from idea and plan to delivery.",
     nav: { home: "Home", about: "About", services: "Services", faq: "FAQ", contact: "Contact" },
     hero: { contact: "Discuss your project", services: "View services" },
     about: {
       lead: "Since 2012",
       heading: "About us",
       intro:
-        "Since 2012, SIA DAGAR has managed projects and advised companies in Latvia, Lithuania, Estonia, Poland and Ukraine.",
+        "Since 2012, SIA DAGAR has managed projects and advised companies worldwide.",
       body: "We take projects from idea to result. Our main focus is energy: industrial gases and renewable energy. We also work on business development, product development and ICT projects.",
-      marketsLabel: "Markets",
+      marketsLabel: "Experience to date",
       markets: ["Latvia", "Poland", "Ukraine", "Lithuania", "Estonia"],
     },
     services: {
@@ -242,8 +242,8 @@ export const translations: Record<Lang, Content> = {
           a: "Energy (industrial gas supply and renewable energy), real estate, retail, manufacturing and ICT.",
         },
         {
-          q: "Which markets do you operate in?",
-          a: "Latvia, Poland, Ukraine, Lithuania and Estonia.",
+          q: "Where do you have experience?",
+          a: "We run projects worldwide. Our experience to date covers Latvia, Poland, Ukraine, Lithuania and Estonia.",
         },
         {
           q: "How long has the company been operating?",
